@@ -55,41 +55,41 @@
   <div class="form-layout">
     <div>
       <form class="form" id="formPlayer" data-panel="player" data-endpoint="https://formspree.io/f/xvkodakl" data-thanks="merci.html" data-sending="Envoi…" data-error="Envoi impossible. Réessaie ou écris-nous sur WhatsApp." novalidate="false">
-        <input type="hidden" name="_subject" value="Next Level Player — Nueva inscripción jugador (FR)">
-        <input type="hidden" name="idioma" value="fr">
+        <input type="hidden" name="_subject" value="Next Level Player — Nouvelle inscription joueur (FR)">
+        <input type="hidden" name="langue" value="fr">
         <input class="hp" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
         <div class="row"><div class="field"><label for="p_name">Prénom et nom <span class="req">*</span></label><input id="p_name" name="nom" required autocomplete="name"></div>
-        <div class="field"><label for="age">Âge (minimum 16) <span class="req">*</span></label><input id="age" name="edad" type="number" min="16" max="60" required inputmode="numeric"></div></div>
+        <div class="field"><label for="age">Âge (minimum 16) <span class="req">*</span></label><input id="age" name="age" type="number" min="16" max="60" required inputmode="numeric"></div></div>
         <div class="row"><div class="field"><label for="p_email">Email <span class="req">*</span></label><input id="p_email" name="email" type="email" required autocomplete="email"></div>
-        <div class="field"><label for="p_wa">WhatsApp / téléphone</label><input id="p_wa" name="telefono" type="tel" autocomplete="tel"></div></div>
+        <div class="field"><label for="p_wa">WhatsApp / téléphone</label><input id="p_wa" name="telephone" type="tel" autocomplete="tel"></div></div>
         <div id="parentBlock" class="parent" hidden><h4>Coordonnées du parent ou tuteur légal</h4><p class="small">Ayant entre 16 et 17 ans, nous avons besoin des coordonnées d'un adulte responsable pour valider ton inscription.</p>
-          <div class="row"><div class="field"><label for="pn">Nom du parent / tuteur</label><input id="pn" name="tutor_nombre"></div><div class="field"><label for="pe">Email ou téléphone du tuteur</label><input id="pe" name="tutor_contacto"></div></div></div>
+          <div class="row"><div class="field"><label for="pn">Nom du parent / tuteur</label><input id="pn" name="tuteur_nom"></div><div class="field"><label for="pe">Email ou téléphone du tuteur</label><input id="pe" name="tuteur_contact"></div></div></div>
         <div class="row"><div class="field"><label for="p_pos">Poste <span class="req">*</span></label><select id="p_pos" name="poste" required><option value="">Sélectionne…</option><option>Gardien</option><option>Défenseur central</option><option>Latéral</option><option>Milieu défensif</option><option>Milieu central</option><option>Milieu offensif</option><option>Ailier</option><option>Attaquant</option></select></div>
         <div class="field"><label for="p_foot">Pied fort</label><select id="p_foot" name="pied"><option value="">Sélectionne…</option><option>Droit</option><option>Gauche</option><option>Les deux</option></select></div></div>
         <div class="row"><div class="field"><label for="p_h">Taille (cm)</label><input id="p_h" name="taille" type="number" min="140" max="220" inputmode="numeric"></div>
-        <div class="field"><label for="p_lvl">Niveau</label><select id="p_lvl" name="nivel"><option value="">Sélectionne…</option><option>Amateur / régional</option><option>Cantera / jeunes</option><option>Tercera Federación</option><option>Segunda Federación</option><option>Autre / sans club</option></select></div></div>
+        <div class="field"><label for="p_lvl">Niveau</label><select id="p_lvl" name="niveau"><option value="">Sélectionne…</option><option>Amateur / régional</option><option>Cantera / jeunes</option><option>Tercera Federación</option><option>Segunda Federación</option><option>Autre / sans club</option></select></div></div>
         <div class="row"><div class="field"><label for="p_club">Club actuel ou dernier</label><input id="p_club" name="club"></div>
         <div class="field"><label for="p_ig">Instagram (@identifiant) <span class="req">*</span></label><input id="p_ig" name="instagram" required placeholder="@"></div></div>
         <div class="field"><label for="p_vid">Lien vidéo (optionnel)</label><input id="p_vid" name="video" type="url" placeholder="https://"></div>
-        <div class="field"><label for="p_stats">Statistiques de la saison (matchs, minutes, buts, passes décisives… selon ton poste)</label><textarea id="p_stats" name="estadisticas" style="min-height:80px"></textarea></div>
-        <div class="field"><label for="p_goal">Que recherches-tu ? (optionnel)</label><textarea id="p_goal" name="objetivo"></textarea></div>
+        <div class="field"><label for="p_stats">Statistiques de la saison (matchs, minutes, buts, passes décisives… selon ton poste)</label><textarea id="p_stats" name="statistiques" style="min-height:80px"></textarea></div>
+        <div class="field"><label for="p_goal">Que recherches-tu ? (optionnel)</label><textarea id="p_goal" name="objectif"></textarea></div>
         <div class="field"><span class="lbl">Ta Player Card en direct</span><p style="font-size:.85rem;color:var(--muted);margin:0 0 10px">Ajuste les axes (0–99). C'est indicatif : nous l'affinerons avec toi.</p><div class="sl"><span>VIT</span><input type="range" name="vit" min="0" max="99" value="78" aria-label="Vitesse"><output></output></div><div class="sl"><span>TEC</span><input type="range" name="tec" min="0" max="99" value="70" aria-label="Technique"><output></output></div><div class="sl"><span>PHY</span><input type="range" name="phy" min="0" max="99" value="84" aria-label="Physique"><output></output></div><div class="sl"><span>MEN</span><input type="range" name="men" min="0" max="99" value="76" aria-label="Mental"><output></output></div><div class="sl"><span>DEF</span><input type="range" name="def" min="0" max="99" value="82" aria-label="Défense"><output></output></div><div class="sl"><span>CRÉA</span><input type="range" name="cre" min="0" max="99" value="68" aria-label="Créativité"><output></output></div></div>
-        <label class="consent"><input type="checkbox" name="consentimiento" value="si" required><span>J'ai lu la <a href="confidentialite.html" target="_blank" rel="noopener">politique de confidentialité</a> et j'accepte d'être contacté au sujet de ma demande.</span></label>
+        <label class="consent"><input type="checkbox" name="consentement" value="si" required><span>J'ai lu la <a href="confidentialite.html" target="_blank" rel="noopener">politique de confidentialité</a> et j'accepte d'être contacté au sujet de ma demande.</span></label>
         <button class="btn btn-primary" type="submit">Envoyer l'inscription</button>
         <div class="form-msg" role="status" aria-live="polite"></div>
       </form>
 
       <form class="form" id="formRecruiter" data-panel="recruiter" hidden data-endpoint="https://formspree.io/f/xnpqldpe" data-thanks="merci.html" data-sending="Envoi…" data-error="Envoi impossible. Réessaie ou écris-nous sur WhatsApp.">
-        <input type="hidden" name="_subject" value="Next Level Player — Nueva solicitud club/agente (FR)">
-        <input type="hidden" name="idioma" value="fr">
+        <input type="hidden" name="_subject" value="Next Level Player — Nouvelle demande club/agent (FR)">
+        <input type="hidden" name="langue" value="fr">
         <input class="hp" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
-        <div class="row"><div class="field"><label for="r_name">Ton nom <span class="req">*</span></label><input id="r_name" name="nombre" required autocomplete="name"></div>
-        <div class="field"><label for="r_org">Club / agence / organisation <span class="req">*</span></label><input id="r_org" name="organizacion" required></div></div>
-        <div class="row"><div class="field"><label for="r_role">Ton rôle</label><select id="r_role" name="rol"><option value="">Sélectionne…</option><option>Club</option><option>Agent / représentant</option><option>Recruteur</option><option>Entraîneur</option><option>Autre</option></select></div>
+        <div class="row"><div class="field"><label for="r_name">Ton nom <span class="req">*</span></label><input id="r_name" name="nom" required autocomplete="name"></div>
+        <div class="field"><label for="r_org">Club / agence / organisation <span class="req">*</span></label><input id="r_org" name="organisation" required></div></div>
+        <div class="row"><div class="field"><label for="r_role">Ton rôle</label><select id="r_role" name="role"><option value="">Sélectionne…</option><option>Club</option><option>Agent / représentant</option><option>Recruteur</option><option>Entraîneur</option><option>Autre</option></select></div>
         <div class="field"><label for="r_email">Email <span class="req">*</span></label><input id="r_email" name="email" type="email" required></div></div>
-        <div class="field"><label for="r_wa">WhatsApp / téléphone</label><input id="r_wa" name="telefono" type="tel"></div>
-        <div class="field"><label for="r_look">Profil recherché (poste, âge, niveau…)</label><textarea id="r_look" name="perfil_buscado"></textarea></div>
-        <label class="consent"><input type="checkbox" name="consentimiento" value="si" required><span>J'ai lu la <a href="confidentialite.html" target="_blank" rel="noopener">politique de confidentialité</a> et j'accepte d'être contacté au sujet de ma demande.</span></label>
+        <div class="field"><label for="r_wa">WhatsApp / téléphone</label><input id="r_wa" name="telephone" type="tel"></div>
+        <div class="field"><label for="r_look">Profil recherché (poste, âge, niveau…)</label><textarea id="r_look" name="profil_recherche"></textarea></div>
+        <label class="consent"><input type="checkbox" name="consentement" value="si" required><span>J'ai lu la <a href="confidentialite.html" target="_blank" rel="noopener">politique de confidentialité</a> et j'accepte d'être contacté au sujet de ma demande.</span></label>
         <button class="btn btn-primary" type="submit">Envoyer la demande</button>
         <div class="form-msg" role="status" aria-live="polite"></div>
       </form>
