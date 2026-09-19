@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://landrytalbotpro.github.io/next-level-player-web/sitemap.xml
