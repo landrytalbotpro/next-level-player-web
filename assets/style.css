@@ -295,3 +295,30 @@ h1,h2,h3,h4,.big,.pull,.hero h1 .line{text-wrap:balance}
 p,li,.lead,summary,.notice{text-wrap:pretty}
 .site-footer a,.contact-side a{overflow-wrap:anywhere}
 @media (max-width:480px){h1,.page-hero h1{font-size:clamp(1.2rem,6.2vw,1.9rem)}.hero h1{font-size:clamp(1.7rem,8.4vw,2.6rem)}h2{font-size:clamp(1.3rem,6vw,1.8rem)}.big{font-size:clamp(1.4rem,6.6vw,2rem)}}
+
+/* ===== v10 — one text typeface, steps list, more air ===== */
+body,p,li,.lead,.hero .lead,.tl p,.fine,.notice,summary,label,input,select,textarea{font-family:var(--fb)}
+.lead,.hero .lead{font-weight:400;font-size:1.05rem;line-height:1.7;color:#C4D0E6;max-width:58ch}
+.lead+.lead{margin-top:1.4em}
+.hier-t{margin:6px 0 0;font-size:1.05rem}
+.hier li{font-family:var(--fb)}
+.hier.steps{margin-top:34px;gap:16px}
+.hier.steps li{padding:22px 26px;gap:22px;align-items:flex-start}
+.hier.steps li::before{font-size:1.5rem;line-height:1.3}
+.hier.steps span{display:flex;flex-direction:column;gap:6px}
+.hier.steps strong{font-weight:600;color:#fff;font-size:1.05rem}
+.hier.steps em{font-style:normal;font-weight:400;color:#B4C2DA;font-size:1rem}
+.page-hero .lead{margin-top:28px}
+.page-hero{padding-bottom:56px}
+.split{gap:72px}
+.callout{padding:38px 36px}
+.callout .check li{margin:0 0 16px}
+.check li{margin-bottom:14px}
+.btn-row{margin-top:40px;gap:18px}
+.section-head{margin-bottom:44px}
+.ctab{padding:130px 0 170px}
+.ctab h2{margin-bottom:30px}
+.ctab p{margin:0 auto 44px}
+.ctab .btn-row{margin-top:48px;justify-content:center}
+.site-footer{margin-top:0}
+@media (max-width:640px){.split{gap:44px}.ctab{padding:84px 0 110px}.hier.steps li{padding:18px 18px;gap:16px}.callout{padding:28px 22px}}
