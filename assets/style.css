@@ -289,3 +289,9 @@ section{padding:76px 0}
 .form-layout{gap:26px}.form{padding:26px}
 @media (max-width:640px){section{padding:52px 0}.hero{padding:44px 0 36px}.ctab{padding:60px 0}.page-hero{padding:44px 0 24px}.split{gap:30px}}
 .big span.tone{color:var(--tone);-webkit-text-stroke:0}
+/* v5: clean line breaks — no split words, balanced headings, no orphans */
+body{overflow-wrap:normal;word-break:normal;hyphens:none;-webkit-hyphens:none}
+h1,h2,h3,h4,.big,.pull,.hero h1 .line{text-wrap:balance}
+p,li,.lead,summary,.notice{text-wrap:pretty}
+.site-footer a,.contact-side a{overflow-wrap:anywhere}
+@media (max-width:480px){h1,.page-hero h1{font-size:clamp(1.2rem,6.2vw,1.9rem)}.hero h1{font-size:clamp(1.7rem,8.4vw,2.6rem)}h2{font-size:clamp(1.3rem,6vw,1.8rem)}.big{font-size:clamp(1.4rem,6.6vw,2rem)}}
