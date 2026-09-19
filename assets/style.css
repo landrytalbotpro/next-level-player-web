@@ -222,3 +222,55 @@ input[type=range]{padding:0;height:6px;border:0;accent-color:var(--lime);backgro
 .page-hero{position:relative}.page-hero .pitch{width:70%;inset:-30% -5% auto auto;opacity:.9}
 .pack.reveal:hover{transform:translateY(-4px)}
 .big.curtain{max-width:none}
+/* ===== v3: night-blue palette (Story visual) + wide heavy type, smaller sizes ===== */
+:root{--bg:#050B18;--navy:#0B1730;--navy-2:#12213F;--tone:#9DB4E0;--fh:'Archivo','Arial Black',system-ui,sans-serif;--line:rgba(255,255,255,.11)}
+body{font-weight:400}
+h1,h2,h3,h4,.big,.logo,.counter b,.scard .n,.rows li,.track span,.avatar,.pull{font-family:var(--fh);font-stretch:120%;font-weight:800;letter-spacing:-.005em}
+h1{font-size:clamp(2rem,6vw,5rem);line-height:1}
+.hero h1{font-size:clamp(2rem,6.2vw,5.4rem);line-height:1}
+.page-hero h1{font-size:clamp(1.9rem,5.2vw,4.2rem)}
+h2{font-size:clamp(1.5rem,3.4vw,2.7rem);line-height:1.08}
+h3{font-size:1.1rem;font-weight:700;line-height:1.2;letter-spacing:0}
+.big{font-size:clamp(1.7rem,4.2vw,3.5rem);line-height:1.05}
+.dot{color:var(--lime)}.tone{color:var(--tone)}.outline{-webkit-text-stroke:0;color:var(--tone)}
+.hero{background:linear-gradient(180deg,#040911 0%,#0A1530 52%,#182C52 100%)}
+.hero::before,.ctab::before{content:"";position:absolute;left:50%;top:0;width:1px;height:70px;background:rgba(255,255,255,.55);z-index:1}
+.page-hero{background:linear-gradient(180deg,#040911 0%,#0A1530 100%)}
+.alt{background:linear-gradient(180deg,#0A1530,#0B1730)}
+.hero h1 .line{padding-top:.12em;margin-top:-.08em}
+.eyebrow,.badge,.btn,.main-nav a,.lang,.tab,.role,.tbl th,summary,.pcard-pos,.pcard-brand,.pcard-name,.chips span,.sl,.counter span,.tag{font-family:'Inter',system-ui,sans-serif}
+.eyebrow{font-weight:500;font-size:.7rem;letter-spacing:.3em;gap:10px}
+.eyebrow::before{display:none}
+.eyebrow .pt{width:7px;height:7px;border-radius:50%;background:var(--lime);display:inline-block;flex:none}
+.main-nav a{font-weight:500;font-size:.72rem;letter-spacing:.2em}
+.lang{font-size:.72rem;font-weight:600}
+.btn{font-weight:600;font-size:.72rem;letter-spacing:.18em;padding:15px 28px}
+.btn-sm{padding:10px 20px}
+.logo{font-size:1.05rem;letter-spacing:.06em}
+.lead{font-weight:300;font-size:1.05rem;color:#B4C2DA}
+.hero .lead{font-size:1.1rem}
+.rows li{font-size:clamp(1.05rem,2vw,1.5rem);font-weight:700}
+.counter b{font-size:clamp(2.4rem,5.4vw,4.4rem)}
+.counter span{font-weight:500;font-size:.72rem;letter-spacing:.22em}
+.counters.two{grid-template-columns:1fr 1fr;border:1px solid var(--line);border-radius:18px;overflow:hidden}
+.scard .n{font-size:clamp(3.4rem,8vw,6rem);-webkit-text-stroke:1px rgba(166,255,61,.7)}
+.scard h3{font-size:clamp(1.3rem,2.4vw,1.9rem)}
+.track span{font-size:clamp(1.3rem,3vw,2.2rem);-webkit-text-stroke:1px rgba(157,180,224,.5)}
+.tbl th{font-size:.8rem;letter-spacing:.14em;font-weight:600}
+summary{font-size:.85rem;font-weight:600;letter-spacing:.08em}
+.card .num{font-size:1.5rem;color:var(--tone);opacity:.75}
+.tl h3{font-size:1rem}
+.pull{font-size:clamp(1.5rem,3vw,2.4rem);line-height:1.15;margin:0}
+.fine{font-size:.85rem;color:var(--muted);margin-top:14px}
+.pcard-name{font-size:1.25rem}
+.pcard-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:6px;border-top:1px solid var(--line);padding-top:12px;text-align:center}
+.pcard-stats span{font-size:.62rem;letter-spacing:.14em;color:var(--muted);display:flex;flex-direction:column;gap:2px}
+.pcard-stats b{font-family:var(--fh);font-stretch:115%;font-size:1.15rem;color:var(--white);letter-spacing:0}
+.pack h3{font-size:1.2rem}
+.section-head{margin-bottom:44px}
+section{padding:104px 0}
+.hl{box-shadow:none;color:var(--white)}
+@media (max-width:640px){section{padding:68px 0}.hero h1{font-size:clamp(1.8rem,8.6vw,3rem)}h1{font-size:clamp(1.7rem,8vw,2.6rem)}.counters.two{grid-template-columns:1fr 1fr}}
+.sticky-cta .btn{font-size:.72rem;padding:14px 10px}
+@media (max-width:480px){.logo{font-size:.66rem;letter-spacing:.02em}.nav-actions{gap:6px}.lang a{padding:4px 7px}}
+@media (max-width:360px){.logo{font-size:.58rem}}
