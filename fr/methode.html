@@ -24,10 +24,12 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add("js")</script>
 <link rel="stylesheet" href="../assets/style.css">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Next Level Player","url":"https://landrytalbotpro.github.io/next-level-player-web/","description":"Les 5 piliers, le Player Profile, la Player ID Card en hexagone et la méthode de prospection en 5 étapes de Next Level Player.","slogan":"Build your profile. Build your career.","email":"landrytalbotpro@gmail.com","telephone":"+34675153535","areaServed":"Asturias, España","knowsLanguage":["es","fr"]}</script>
 </head>
 <body>
+<div id="progress"></div>
 <header class="site-header">
   <div class="wrap nav-row">
     <a href="index.html" class="logo" aria-label="Next Level Player"><svg class="mark" viewBox="0 0 26 26" aria-hidden="true"><polygon points="13,1.5 23,7.25 23,18.75 13,24.5 3,18.75 3,7.25" fill="none" stroke="#A6FF3D" stroke-width="2"/><polygon points="13,7 18,10 18,16 13,19 8,16 8,10" fill="#A6FF3D"/></svg><span>Next Level <b>Player</b></span></a>
@@ -47,20 +49,17 @@
 </header>
 <main>
 
-<section class="page-hero"><div class="wrap"><span class="eyebrow">Méthode</span><h1>De la performance à <span class="hl">l'opportunité.</span></h1><p class="lead">Performance → profil professionnel → personal branding → contenu → visibilité → prospection → réseau → opportunités. C'est la chaîne que nous construisons avec toi.</p></div></section>
-
+<section class="page-hero"><svg class="pitch" viewBox="0 0 1000 640" aria-hidden="true"><rect x="20" y="20" width="960" height="600"/><line x1="500" y1="20" x2="500" y2="620"/><circle cx="500" cy="320" r="90"/><rect x="20" y="170" width="150" height="300"/><rect x="830" y="170" width="150" height="300"/><rect x="20" y="245" width="55" height="150"/><rect x="925" y="245" width="55" height="150"/></svg><div class="wrap" style="position:relative"><span class="eyebrow">Méthode</span><h1>De la performance à <span class="outline">l'opportunité.</span></h1><p class="lead">Performance → profil → branding → contenu → visibilité → prospection → réseau → opportunités.</p></div></section>
 <section><div class="wrap">
   <div class="section-head reveal"><span class="eyebrow">5 piliers</span><h2>Un écosystème autour du joueur.</h2></div>
   <div class="grid g3"><div class="card reveal"><span class="num">01</span><h3>Football</h3><p>Poste, niveau, parcours, statistiques, qualités, objectifs et championnat visé.</p></div><div class="card reveal"><span class="num">02</span><h3>Image & Contenu</h3><p>Identité visuelle, Player Card, CV, Instagram, photos et vidéo. Inclut highlights et storytelling.</p></div><div class="card reveal"><span class="num">03</span><h3>Career / Prospection</h3><p>Clubs, agents, recruteurs, directeurs sportifs, essais et contacts.</p></div><div class="card reveal"><span class="num">04</span><h3>Performance</h3><p>Objectifs, préparation physique, organisation, récupération et préparation aux essais.</p></div><div class="card reveal"><span class="num">05</span><h3>Mental</h3><p>Gestion des essais, concurrence, rejet, pression, changement de club et confiance.</p></div>
-  <div class="card reveal" style="border-color:rgba(166,255,61,.4)"><span class="num">IA</span><h3>Technologie</h3><p>L'IA est une infrastructure, pas un argument : elle accélère contenu, rédaction, traduction et suivi. L'avantage, c'est de la combiner à l'expérience du terrain.</p></div></div>
+  <div class="card reveal" style="border-color:rgba(166,255,61,.4)"><span class="num">IA</span><h3>Technologie</h3><p>L'IA est une infrastructure, pas un argument : elle accélère contenu, rédaction, traduction et suivi.</p></div></div>
 </div></section>
-
 <section class="alt"><div class="wrap split">
-  <div class="reveal"><span class="eyebrow">Player ID Card</span><h2>Une carte claire, pas une carte de jeu vidéo.</h2>
-    <p class="lead">Poste, taille et pied fort, plus un hexagone de tes qualités et axes de progrès. C'est un appui visuel : ce qu'un recruteur regarde en premier, c'est autre chose.</p>
-    <p class="lead" style="margin-top:14px">Ordre d'importance pour un recruteur :</p>
-    <ol class="hier"><li><span><strong>Highlights vidéo</strong></span></li><li><span><strong>CV / parcours</strong> — clubs, périodes, durée, niveau</span></li><li><span>Poste, taille, pied et infos factuelles</span></li><li><span>Player Card — complément visuel</span></li></ol></div>
-  <div class="reveal"><div class="pcard">
+  <div class="reveal"><span class="eyebrow">Player ID Card</span><h2>Une carte claire, pas une carte de jeu.</h2>
+    <p class="lead">Poste, taille et pied fort, plus un hexagone de tes qualités. Un appui visuel : ce qu'un recruteur regarde d'abord, c'est ta vidéo et ton parcours.</p>
+    <ol class="hier"><li><span><strong>Highlights vidéo</strong></span></li><li><span><strong>CV / parcours</strong> — clubs, périodes, niveau</span></li><li><span>Poste, taille, pied</span></li><li><span>Player Card</span></li></ol></div>
+  <div class="reveal"><div class="pcard" data-tilt>
   <div class="pcard-top"><div><div class="pcard-pos" data-pos data-default="DC / MC">DC / MC</div></div><div class="pcard-brand">Next Level<br>Player</div></div>
   <div class="pcard-name" data-name data-default="Prénom Nom">Prénom Nom</div>
   <div class="pcard-meta" data-meta data-default="1,93 m · Pied droit">1,93 m · Pied droit</div>
@@ -68,18 +67,16 @@
   <p class="pcard-note">Exemple illustratif</p>
 </div></div>
 </div></section>
-
 <section><div class="wrap">
   <div class="section-head reveal"><span class="eyebrow">Prospection</span><h2>Bien contacter, en 5 étapes.</h2></div>
-  <div class="steps"><div class="step reveal"><h3>Identifier</h3><p>Clubs, agents, recruteurs, directeurs sportifs et opportunités.</p></div><div class="step reveal"><h3>Qualifier</h3><p>Le club correspond-il à ton niveau, ton poste, ton profil et tes ambitions ?</p></div><div class="step reveal"><h3>Préparer</h3><p>CV, vidéo, Player Card, présentation et message.</p></div><div class="step reveal"><h3>Contacter</h3><p>Instagram, email, WhatsApp, LinkedIn et autres canaux professionnels.</p></div><div class="step reveal"><h3>Suivre</h3><p>Réponses, relances, essais, refus et opportunités.</p></div></div>
-  <p class="notice reveal" style="margin-top:28px">Jamais de messages génériques type « Bonjour, nous sommes une agence… ». Chaque contact est personnalisé et apporte de la valeur dès le premier message.</p>
+  <div class="tl"><div class="reveal"><h3>Identifier</h3><p>Clubs, agents, recruteurs et opportunités.</p></div><div class="reveal"><h3>Qualifier</h3><p>Correspond-il à ton niveau, ton poste et tes ambitions ?</p></div><div class="reveal"><h3>Préparer</h3><p>CV, vidéo, Player Card et message.</p></div><div class="reveal"><h3>Contacter</h3><p>Instagram, email, WhatsApp, LinkedIn.</p></div><div class="reveal"><h3>Suivre</h3><p>Réponses, relances, essais.</p></div></div>
+  <p class="notice reveal" style="margin-top:44px">Jamais de messages génériques type « Bonjour, nous sommes une agence… ». Chaque contact est personnalisé.</p>
 </div></section>
-
 <section class="alt"><div class="wrap split">
-  <div class="reveal"><span class="eyebrow">Ce que nous faisons</span><h2>Nous élargissons tes possibilités.</h2><ul class="check"><li>Nous construisons ton profil, ton image et ta stratégie</li><li>Nous te donnons des outils et une méthode pour prospecter</li><li>Nous te préparons aux essais et aux opportunités</li></ul></div>
-  <div class="reveal"><span class="eyebrow">Ce que nous ne faisons pas</span><h2>Pas de promesses en l'air.</h2><ul class="check cross"><li>Nous ne garantissons pas de contrat professionnel</li><li>Nous ne sommes ni agents ni représentants</li><li>Nous n'inventons ni témoignages ni résultats</li></ul></div>
+  <div class="reveal"><span class="eyebrow">Ce que nous faisons</span><h2>Nous élargissons tes possibilités.</h2><ul class="check"><li>Nous construisons ton profil, ton image et ta stratégie</li><li>Nous te donnons outils et méthode pour prospecter</li><li>Nous te préparons aux essais et opportunités</li></ul></div>
+  <div class="reveal"><span class="eyebrow">Ce que nous ne faisons pas</span><h2>Pas de promesses en l'air.</h2><ul class="check cross"><li>Nous ne garantissons pas de contrat</li><li>Nous ne sommes ni agents ni représentants</li><li>Nous n'inventons ni témoignages ni résultats</li></ul></div>
 </div></section>
-<section class="cta-band"><div class="wrap reveal"><h2>On commence par ton diagnostic ?</h2><p class="lead">Remplis le formulaire et nous te répondons sous 48 h.</p><div class="btn-row" style="justify-content:center"><a class="btn btn-primary" href="contact.html">S'inscrire</a><a class="btn btn-ghost" href="https://wa.me/34675153535?text=Bonjour%2C%20Next%20Level%20Player%20m'int%C3%A9resse" target="_blank" rel="noopener noreferrer">WhatsApp</a></div></div></section>
+<section class="ctab"><div class="wrap"><svg class="pitch" viewBox="0 0 1000 640" aria-hidden="true"><rect x="20" y="20" width="960" height="600"/><line x1="500" y1="20" x2="500" y2="620"/><circle cx="500" cy="320" r="90"/><rect x="20" y="170" width="150" height="300"/><rect x="830" y="170" width="150" height="300"/><rect x="20" y="245" width="55" height="150"/><rect x="925" y="245" width="55" height="150"/></svg><span class="eyebrow">Niveau supérieur</span><h2 class="big" style="margin-inline:auto">On commence par ton diagnostic ?</h2><p class="lead" style="margin-inline:auto">Remplis le formulaire et nous te répondons sous 48 h.</p><div class="btn-row" style="justify-content:center"><a class="btn btn-primary" href="contact.html">S'inscrire</a><a class="btn btn-ghost" href="https://wa.me/34675153535?text=Bonjour%2C%20Next%20Level%20Player%20m'int%C3%A9resse" target="_blank" rel="noopener noreferrer">WhatsApp</a></div></div></section>
 </main>
 <footer class="site-footer">
   <div class="wrap">
