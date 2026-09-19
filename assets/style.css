@@ -336,3 +336,6 @@ body,p,li,.lead,.hero .lead,.tl p,.fine,.notice,summary,label,input,select,texta
 
 /* v13 — marquee in the body typeface (Inter), same as the rest of the text */
 .track span{font-family:var(--fb);font-stretch:100%;font-weight:600;font-size:clamp(.95rem,1.6vw,1.2rem);letter-spacing:.18em;color:#C9D5EA;text-transform:uppercase}
+
+/* v14 — lead texts share the look of the "Fase de validación" pill */
+.lead,.hero .lead,.page-hero .lead,.ctab p,.section-head .lead{font-size:.95rem;font-weight:400;line-height:1.75;color:var(--muted);letter-spacing:0}
