@@ -274,3 +274,18 @@ section{padding:104px 0}
 .sticky-cta .btn{font-size:.72rem;padding:14px 10px}
 @media (max-width:480px){.logo{font-size:.66rem;letter-spacing:.02em}.nav-actions{gap:6px}.lang a{padding:4px 7px}}
 @media (max-width:360px){.logo{font-size:.58rem}}
+/* v4: less scroll */
+section{padding:76px 0}
+.hero{min-height:auto;padding:70px 0 54px}
+.hero-bottom{margin-top:30px}
+.page-hero{padding:64px 0 34px}
+.section-head{margin-bottom:32px}
+.rows li{padding:16px 0}
+.ctab{padding:84px 0}
+.split{gap:48px}
+.tl{margin-top:8px}
+.card{padding:24px}
+.foot-grid{gap:24px}.site-footer{padding:44px 0 22px}
+.form-layout{gap:26px}.form{padding:26px}
+@media (max-width:640px){section{padding:52px 0}.hero{padding:44px 0 36px}.ctab{padding:60px 0}.page-hero{padding:44px 0 24px}.split{gap:30px}}
+.big span.tone{color:var(--tone);-webkit-text-stroke:0}
