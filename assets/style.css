@@ -327,3 +327,9 @@ body,p,li,.lead,.hero .lead,.tl p,.fine,.notice,summary,label,input,select,texta
 .marquee{padding:14px 0}
 .track span{font-size:clamp(.85rem,1.6vw,1.15rem);letter-spacing:.14em;font-weight:700;padding:0 20px;-webkit-text-stroke:.6px rgba(157,180,224,.6)}
 .track span::after{width:6px;height:6px;margin-left:40px}
+
+/* v12 — readable marquee: solid text, medium size */
+.marquee{padding:20px 0}
+.track{animation-duration:48s}
+.track span{font-size:clamp(1rem,1.9vw,1.4rem);letter-spacing:.14em;font-weight:700;color:#C9D5EA;-webkit-text-stroke:0;padding:0 24px}
+.track span::after{width:7px;height:7px;margin-left:48px}
