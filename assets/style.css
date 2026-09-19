@@ -322,3 +322,8 @@ body,p,li,.lead,.hero .lead,.tl p,.fine,.notice,summary,label,input,select,texta
 .ctab .btn-row{margin-top:48px;justify-content:center}
 .site-footer{margin-top:0}
 @media (max-width:640px){.split{gap:44px}.ctab{padding:84px 0 110px}.hier.steps li{padding:18px 18px;gap:16px}.callout{padding:28px 22px}}
+
+/* v11 — smaller scrolling words */
+.marquee{padding:14px 0}
+.track span{font-size:clamp(.85rem,1.6vw,1.15rem);letter-spacing:.14em;font-weight:700;padding:0 20px;-webkit-text-stroke:.6px rgba(157,180,224,.6)}
+.track span::after{width:6px;height:6px;margin-left:40px}
