@@ -223,9 +223,9 @@ input[type=range]{padding:0;height:6px;border:0;accent-color:var(--lime);backgro
 .pack.reveal:hover{transform:translateY(-4px)}
 .big.curtain{max-width:none}
 /* ===== v3: night-blue palette (Story visual) + wide heavy type, smaller sizes ===== */
-:root{--bg:#050B18;--navy:#0B1730;--navy-2:#12213F;--tone:#9DB4E0;--fh:'Archivo','Arial Black',system-ui,sans-serif;--line:rgba(255,255,255,.11)}
+:root{--bg:#050B18;--navy:#0B1730;--navy-2:#12213F;--tone:#9DB4E0;--fh:'Montserrat','Arial Black',system-ui,sans-serif;--line:rgba(255,255,255,.11)}
 body{font-weight:400}
-h1,h2,h3,h4,.big,.logo,.counter b,.scard .n,.rows li,.track span,.avatar,.pull{font-family:var(--fh);font-stretch:120%;font-weight:800;letter-spacing:-.005em}
+h1,h2,h3,h4,.big,.logo,.counter b,.scard .n,.rows li,.track span,.avatar,.pull,.btn,.pcard-name,.pcard-stats b{font-family:var(--fh);font-style:italic;font-weight:800;letter-spacing:-.01em}
 h1{font-size:clamp(2rem,6vw,5rem);line-height:1}
 .hero h1{font-size:clamp(2rem,6.2vw,5.4rem);line-height:1}
 .page-hero h1{font-size:clamp(1.9rem,5.2vw,4.2rem)}
@@ -265,7 +265,7 @@ summary{font-size:.85rem;font-weight:600;letter-spacing:.08em}
 .pcard-name{font-size:1.25rem}
 .pcard-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:6px;border-top:1px solid var(--line);padding-top:12px;text-align:center}
 .pcard-stats span{font-size:.62rem;letter-spacing:.14em;color:var(--muted);display:flex;flex-direction:column;gap:2px}
-.pcard-stats b{font-family:var(--fh);font-stretch:115%;font-size:1.15rem;color:var(--white);letter-spacing:0}
+.pcard-stats b{font-family:var(--fh);font-size:1.15rem;color:var(--white);letter-spacing:0}
 .pack h3{font-size:1.2rem}
 .section-head{margin-bottom:44px}
 section{padding:104px 0}
@@ -335,7 +335,7 @@ body,p,li,.lead,.hero .lead,.tl p,.fine,.notice,summary,label,input,select,texta
 .track span::after{width:7px;height:7px;margin-left:48px}
 
 /* v13 — marquee in the body typeface (Inter), same as the rest of the text */
-.track span{font-family:var(--fb);font-stretch:100%;font-weight:600;font-size:clamp(.95rem,1.6vw,1.2rem);letter-spacing:.18em;color:#C9D5EA;text-transform:uppercase}
+.track span{font-family:var(--fb);font-style:normal;font-weight:600;font-size:clamp(.95rem,1.6vw,1.2rem);letter-spacing:.18em;color:#C9D5EA;text-transform:uppercase}
 
 /* v14 — lead texts share the look of the "Fase de validación" pill */
 .lead,.hero .lead,.page-hero .lead,.ctab p,.section-head .lead{font-size:.95rem;font-weight:400;line-height:1.75;color:var(--muted);letter-spacing:0}
