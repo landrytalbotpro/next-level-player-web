@@ -339,3 +339,5 @@ body,p,li,.lead,.hero .lead,.tl p,.fine,.notice,summary,label,input,select,texta
 
 /* v14 — lead texts share the look of the "Fase de validación" pill */
 .lead,.hero .lead,.page-hero .lead,.ctab p,.section-head .lead{font-size:.95rem;font-weight:400;line-height:1.75;color:var(--muted);letter-spacing:0}
+
+/* Logo NLP (oct 2026) */.logo{gap:.55em}.logo .mark{height:1.9em;width:auto;display:block}.logo .word{height:.85em;width:auto;display:block}@media (max-width:480px){.logo .mark{display:block;height:26px}.logo .word{height:11px}}@media (max-width:360px){.logo .mark{display:none}.logo .word{height:10px}}
