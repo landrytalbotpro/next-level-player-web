@@ -385,3 +385,11 @@ p,li,.lead{text-wrap:pretty}
 .site-footer a.ig:hover{color:var(--lime)}
 .site-footer a.ig svg{width:22px;height:22px}
 @media (max-width:640px){.hero .lead br,.page-hero .lead br{display:none}}
+
+/* page légale */
+.legal h3{margin-top:2.2em}
+.legal ol,.legal ul{padding-left:1.2em;color:var(--muted)}
+.legal li{margin-bottom:8px}
+.legal p{color:var(--muted)}
+.legal strong{color:var(--white)}
+.todo{background:#FFD84D;color:#000;font-weight:700;padding:1px 6px;border-radius:4px}
